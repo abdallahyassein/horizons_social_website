@@ -36,7 +36,7 @@ class PostController extends Controller
            
            $post->save();
            $post->tags()->attach($request->tags);
-			dd($request);
+			
            $imagesdata = array();
           
            
